@@ -8,62 +8,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
     android:orientation="vertical">
-
-    <TextView
+    <Button
+        android:id="@+id/plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:text="tim" />
+        android:text="+"
+        android:onClick="increment"
+        />
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:text="tim" />
-    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:text="0"
+        android:layout_below="@+id/plus"
+        />
+    <Button
+        android:id="@+id/minus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tim"
-        android:background="#ee7"
-        android:layout_alignParentRight="true"/>
-    <TextView
-        android:id="@+id/tim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Sana" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:layout_toLeftOf="@id/tim"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="8dp"
-        android:text="nix" />
-    <TextView
-        android:id="@+id/timb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:layout_alignParentBottom="true"
-        android:text="Jack" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:layout_marginBottom="8dp"
-        android:layout_above="@+id/timb"
-        android:text="Ron" />
-    <TextView
-        android:id="@+id/timr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#fe4523"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:text="Rob" />
+        android:layout_below="@+id/text"
+        android:layout_marginTop="8dp"
+        android:text="-"
+        android:onClick="decrement"
+        />
 
 </RelativeLayout>

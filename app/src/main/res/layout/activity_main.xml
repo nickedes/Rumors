@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:text="tim" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="tim" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tim"
+        android:background="#ee7"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Sana" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:layout_toLeftOf="@id/tim"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:text="nix" />
+    <TextView
+        android:id="@+id/timb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:layout_alignParentBottom="true"
+        android:text="Jack" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/timb"
+        android:text="Ron" />
+    <TextView
+        android:id="@+id/timr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fe4523"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Rob" />
+
+</RelativeLayout>
